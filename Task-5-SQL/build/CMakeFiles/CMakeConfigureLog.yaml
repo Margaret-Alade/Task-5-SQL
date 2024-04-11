@@ -1,0 +1,1200 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 23.3.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/3.27.7/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-dduxqp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-dduxqp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-dduxqp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7e467/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7e467.dir/build.make CMakeFiles/cmTC_7e467.dir/build
+        Building C object CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v "-fcoverage-compilation-dir=/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-dduxqp" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-dduxqp" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_7e467
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e467.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -o cmTC_7e467 
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_7e467 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1015.7
+        BUILD 16:59:34 Oct  1 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3)
+        Library search paths:
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-dduxqp']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7e467/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7e467.dir/build.make CMakeFiles/cmTC_7e467.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v "-fcoverage-compilation-dir=/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-dduxqp" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-dduxqp" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.3.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_7e467]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e467.dir/link.txt --verbose=1]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -o cmTC_7e467 ]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_7e467 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7e467] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_7e467.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-KzyCom"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-KzyCom"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-KzyCom'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6593/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f6593.dir/build.make CMakeFiles/cmTC_f6593.dir/build
+        Building CXX object CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v "-fcoverage-compilation-dir=/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-KzyCom" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-KzyCom" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_f6593
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6593.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f6593 
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_f6593 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1015.7
+        BUILD 16:59:34 Oct  1 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3)
+        Library search paths:
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-KzyCom']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6593/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f6593.dir/build.make CMakeFiles/cmTC_f6593.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v "-fcoverage-compilation-dir=/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-KzyCom" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-KzyCom" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.3.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_f6593]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6593.dir/link.txt --verbose=1]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f6593 ]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_f6593 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f6593] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f6593.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:38 (check_function_exists)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-QmDGex"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-QmDGex"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-QmDGex'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0d782/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0d782.dir/build.make CMakeFiles/cmTC_0d782.dir/build
+        Building C object CMakeFiles/cmTC_0d782.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_0d782.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_0d782.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_0d782.dir/CheckFunctionExists.c.o -c "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles/CMakeScratch/TryCompile-QmDGex/CheckFunctionExists.c"
+        Linking C executable cmTC_0d782
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d782.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=poll -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0d782.dir/CheckFunctionExists.c.o -o cmTC_0d782 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:2 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1eb5e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1eb5e.dir/build.make CMakeFiles/cmTC_1eb5e.dir/build
+        Building CXX object CMakeFiles/cmTC_1eb5e.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_1eb5e.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.o -MF CMakeFiles/cmTC_1eb5e.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.o.d -o CMakeFiles/cmTC_1eb5e.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx:12:13: error: call to deleted function 'from_chars'
+          auto rf = std::from_chars(std::cbegin(z), std::cend(z), n);
+                    ^~~~~~~~~~~~~~~
+        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/charconv:114:19: note: candidate function has been explicitly deleted
+        from_chars_result from_chars(const char*, const char*, bool, int = 10) = delete;
+                          ^
+        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/charconv:796:1: note: candidate template ignored: requirement 'is_integral<long double>::value' was not satisfied [with _Tp = long double]
+        from_chars(const char* __first, const char* __last, _Tp& __value)
+        ^
+        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/charconv:803:1: note: candidate function template not viable: requires 4 arguments, but 3 were provided
+        from_chars(const char* __first, const char* __last, _Tp& __value, int __base)
+        ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_1eb5e.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.o] Error 1
+        make: *** [cmTC_1eb5e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:6 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_69308/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_69308.dir/build.make CMakeFiles/cmTC_69308.dir/build
+        Building CXX object CMakeFiles/cmTC_69308.dir/PQXX_HAVE_CHARCONV_INT.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_69308.dir/PQXX_HAVE_CHARCONV_INT.cxx.o -MF CMakeFiles/cmTC_69308.dir/PQXX_HAVE_CHARCONV_INT.cxx.o.d -o CMakeFiles/cmTC_69308.dir/PQXX_HAVE_CHARCONV_INT.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CHARCONV_INT.cxx"
+        Linking CXX executable cmTC_69308
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69308.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_69308.dir/PQXX_HAVE_CHARCONV_INT.cxx.o -o cmTC_69308 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:10 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_CMP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_068ce/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_068ce.dir/build.make CMakeFiles/cmTC_068ce.dir/build
+        Building CXX object CMakeFiles/cmTC_068ce.dir/PQXX_HAVE_CMP.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_068ce.dir/PQXX_HAVE_CMP.cxx.o -MF CMakeFiles/cmTC_068ce.dir/PQXX_HAVE_CMP.cxx.o.d -o CMakeFiles/cmTC_068ce.dir/PQXX_HAVE_CMP.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CMP.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CMP.cxx:8:15: error: no member named 'cmp_greater' in namespace 'std'; did you mean 'isgreater'?
+          return std::cmp_greater(-1, 2u) && std::cmp_less_equal(3, 0);
+                 ~~~~~^~~~~~~~~~~
+                      isgreater
+        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath:342:9: note: 'isgreater' declared here
+        using ::isgreater _LIBCPP_USING_IF_EXISTS;
+                ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CMP.cxx:8:43: error: no member named 'cmp_less_equal' in namespace 'std'; did you mean 'islessequal'?
+          return std::cmp_greater(-1, 2u) && std::cmp_less_equal(3, 0);
+                                             ~~~~~^~~~~~~~~~~~~~
+                                                  islessequal
+        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath:345:9: note: 'islessequal' declared here
+        using ::islessequal _LIBCPP_USING_IF_EXISTS;
+                ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_068ce.dir/PQXX_HAVE_CMP.cxx.o] Error 1
+        make: *** [cmTC_068ce/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:14 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ebd7/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7ebd7.dir/build.make CMakeFiles/cmTC_7ebd7.dir/build
+        Building CXX object CMakeFiles/cmTC_7ebd7.dir/PQXX_HAVE_CONCEPTS.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_7ebd7.dir/PQXX_HAVE_CONCEPTS.cxx.o -MF CMakeFiles/cmTC_7ebd7.dir/PQXX_HAVE_CONCEPTS.cxx.o.d -o CMakeFiles/cmTC_7ebd7.dir/PQXX_HAVE_CONCEPTS.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CONCEPTS.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CONCEPTS.cxx:5:4: error: "No PQXX_HAVE_CONCEPTS: __cpp_concepts is not set."
+        #  error "No PQXX_HAVE_CONCEPTS: __cpp_concepts is not set."
+           ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CONCEPTS.cxx:8:4: error: "No PQXX_HAVE_CONCEPTS: __cpp_concepts is false."
+        #  error "No PQXX_HAVE_CONCEPTS: __cpp_concepts is false."
+           ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_7ebd7.dir/PQXX_HAVE_CONCEPTS.cxx.o] Error 1
+        make: *** [cmTC_7ebd7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:18 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_CXA_DEMANGLE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a2c6f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a2c6f.dir/build.make CMakeFiles/cmTC_a2c6f.dir/build
+        Building CXX object CMakeFiles/cmTC_a2c6f.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_a2c6f.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.o -MF CMakeFiles/cmTC_a2c6f.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.o.d -o CMakeFiles/cmTC_a2c6f.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_CXA_DEMANGLE.cxx"
+        Linking CXX executable cmTC_a2c6f
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2c6f.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a2c6f.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.o -o cmTC_a2c6f 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:22 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_PURE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ad0a9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ad0a9.dir/build.make CMakeFiles/cmTC_ad0a9.dir/build
+        Building CXX object CMakeFiles/cmTC_ad0a9.dir/PQXX_HAVE_GCC_PURE.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_ad0a9.dir/PQXX_HAVE_GCC_PURE.cxx.o -MF CMakeFiles/cmTC_ad0a9.dir/PQXX_HAVE_GCC_PURE.cxx.o.d -o CMakeFiles/cmTC_ad0a9.dir/PQXX_HAVE_GCC_PURE.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_GCC_PURE.cxx"
+        Linking CXX executable cmTC_ad0a9
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad0a9.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ad0a9.dir/PQXX_HAVE_GCC_PURE.cxx.o -o cmTC_ad0a9 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:26 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1d8ab/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1d8ab.dir/build.make CMakeFiles/cmTC_1d8ab.dir/build
+        Building CXX object CMakeFiles/cmTC_1d8ab.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_1d8ab.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.o -MF CMakeFiles/cmTC_1d8ab.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.o.d -o CMakeFiles/cmTC_1d8ab.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_GCC_VISIBILITY.cxx"
+        Linking CXX executable cmTC_1d8ab
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d8ab.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d8ab.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.o -o cmTC_1d8ab 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:30 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_LIKELY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3bbe8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3bbe8.dir/build.make CMakeFiles/cmTC_3bbe8.dir/build
+        Building CXX object CMakeFiles/cmTC_3bbe8.dir/PQXX_HAVE_LIKELY.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_3bbe8.dir/PQXX_HAVE_LIKELY.cxx.o -MF CMakeFiles/cmTC_3bbe8.dir/PQXX_HAVE_LIKELY.cxx.o.d -o CMakeFiles/cmTC_3bbe8.dir/PQXX_HAVE_LIKELY.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_LIKELY.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_LIKELY.cxx:7:21: error: use of undeclared identifier 'because'
+          deliberately_fail(because, older, C++, standard);
+                            ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_LIKELY.cxx:7:30: error: use of undeclared identifier 'older'
+          deliberately_fail(because, older, C++, standard);
+                                     ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_LIKELY.cxx:7:37: error: use of undeclared identifier 'C'
+          deliberately_fail(because, older, C++, standard);
+                                            ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_LIKELY.cxx:7:42: error: use of undeclared identifier 'standard'
+          deliberately_fail(because, older, C++, standard);
+                                                 ^
+        4 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_3bbe8.dir/PQXX_HAVE_LIKELY.cxx.o] Error 1
+        make: *** [cmTC_3bbe8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:34 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_MULTIDIM"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c81c2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c81c2.dir/build.make CMakeFiles/cmTC_c81c2.dir/build
+        Building CXX object CMakeFiles/cmTC_c81c2.dir/PQXX_HAVE_MULTIDIM.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_c81c2.dir/PQXX_HAVE_MULTIDIM.cxx.o -MF CMakeFiles/cmTC_c81c2.dir/PQXX_HAVE_MULTIDIM.cxx.o.d -o CMakeFiles/cmTC_c81c2.dir/PQXX_HAVE_MULTIDIM.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_MULTIDIM.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_MULTIDIM.cxx:5:4: error: "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is not set."
+        #  error "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is not set."
+           ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_MULTIDIM.cxx:8:4: error: "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is false."
+        #  error "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is false."
+           ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_c81c2.dir/PQXX_HAVE_MULTIDIM.cxx.o] Error 1
+        make: *** [cmTC_c81c2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:38 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_PATH"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_958e7/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_958e7.dir/build.make CMakeFiles/cmTC_958e7.dir/build
+        Building CXX object CMakeFiles/cmTC_958e7.dir/PQXX_HAVE_PATH.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_958e7.dir/PQXX_HAVE_PATH.cxx.o -MF CMakeFiles/cmTC_958e7.dir/PQXX_HAVE_PATH.cxx.o.d -o CMakeFiles/cmTC_958e7.dir/PQXX_HAVE_PATH.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_PATH.cxx"
+        Linking CXX executable cmTC_958e7
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_958e7.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_958e7.dir/PQXX_HAVE_PATH.cxx.o -o cmTC_958e7 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:42 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca680/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ca680.dir/build.make CMakeFiles/cmTC_ca680.dir/build
+        Building CXX object CMakeFiles/cmTC_ca680.dir/PQXX_HAVE_POLL.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_ca680.dir/PQXX_HAVE_POLL.cxx.o -MF CMakeFiles/cmTC_ca680.dir/PQXX_HAVE_POLL.cxx.o.d -o CMakeFiles/cmTC_ca680.dir/PQXX_HAVE_POLL.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_POLL.cxx"
+        Linking CXX executable cmTC_ca680
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca680.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ca680.dir/PQXX_HAVE_POLL.cxx.o -o cmTC_ca680 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:46 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_SLEEP_FOR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f1754/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f1754.dir/build.make CMakeFiles/cmTC_f1754.dir/build
+        Building CXX object CMakeFiles/cmTC_f1754.dir/PQXX_HAVE_SLEEP_FOR.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_f1754.dir/PQXX_HAVE_SLEEP_FOR.cxx.o -MF CMakeFiles/cmTC_f1754.dir/PQXX_HAVE_SLEEP_FOR.cxx.o.d -o CMakeFiles/cmTC_f1754.dir/PQXX_HAVE_SLEEP_FOR.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SLEEP_FOR.cxx"
+        Linking CXX executable cmTC_f1754
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1754.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f1754.dir/PQXX_HAVE_SLEEP_FOR.cxx.o -o cmTC_f1754 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:50 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_SOURCE_LOCATION"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_81862/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_81862.dir/build.make CMakeFiles/cmTC_81862.dir/build
+        Building CXX object CMakeFiles/cmTC_81862.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_81862.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.o -MF CMakeFiles/cmTC_81862.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.o.d -o CMakeFiles/cmTC_81862.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SOURCE_LOCATION.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SOURCE_LOCATION.cxx:5:4: error: "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is not set."
+        #  error "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is not set."
+           ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SOURCE_LOCATION.cxx:8:4: error: "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is false."
+        #  error "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is false."
+           ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_81862.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.o] Error 1
+        make: *** [cmTC_81862/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:54 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_SPAN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f71f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5f71f.dir/build.make CMakeFiles/cmTC_5f71f.dir/build
+        Building CXX object CMakeFiles/cmTC_5f71f.dir/PQXX_HAVE_SPAN.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_5f71f.dir/PQXX_HAVE_SPAN.cxx.o -MF CMakeFiles/cmTC_5f71f.dir/PQXX_HAVE_SPAN.cxx.o.d -o CMakeFiles/cmTC_5f71f.dir/PQXX_HAVE_SPAN.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SPAN.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SPAN.cxx:5:4: error: "No PQXX_HAVE_SPAN: __cpp_lib_span is not set."
+        #  error "No PQXX_HAVE_SPAN: __cpp_lib_span is not set."
+           ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SPAN.cxx:8:4: error: "No PQXX_HAVE_SPAN: __cpp_lib_span is false."
+        #  error "No PQXX_HAVE_SPAN: __cpp_lib_span is false."
+           ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_5f71f.dir/PQXX_HAVE_SPAN.cxx.o] Error 1
+        make: *** [cmTC_5f71f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:58 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_SSIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a2a64/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a2a64.dir/build.make CMakeFiles/cmTC_a2a64.dir/build
+        Building CXX object CMakeFiles/cmTC_a2a64.dir/PQXX_HAVE_SSIZE.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_a2a64.dir/PQXX_HAVE_SSIZE.cxx.o -MF CMakeFiles/cmTC_a2a64.dir/PQXX_HAVE_SSIZE.cxx.o.d -o CMakeFiles/cmTC_a2a64.dir/PQXX_HAVE_SSIZE.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SSIZE.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SSIZE.cxx:5:4: error: "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is not set."
+        #  error "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is not set."
+           ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_SSIZE.cxx:8:4: error: "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is false."
+        #  error "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is false."
+           ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_a2a64.dir/PQXX_HAVE_SSIZE.cxx.o] Error 1
+        make: *** [cmTC_a2a64/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:62 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_R"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b98af/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b98af.dir/build.make CMakeFiles/cmTC_b98af.dir/build
+        Building CXX object CMakeFiles/cmTC_b98af.dir/PQXX_HAVE_STRERROR_R.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_b98af.dir/PQXX_HAVE_STRERROR_R.cxx.o -MF CMakeFiles/cmTC_b98af.dir/PQXX_HAVE_STRERROR_R.cxx.o.d -o CMakeFiles/cmTC_b98af.dir/PQXX_HAVE_STRERROR_R.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_STRERROR_R.cxx"
+        Linking CXX executable cmTC_b98af
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b98af.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b98af.dir/PQXX_HAVE_STRERROR_R.cxx.o -o cmTC_b98af 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:66 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_S"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_831fc/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_831fc.dir/build.make CMakeFiles/cmTC_831fc.dir/build
+        Building CXX object CMakeFiles/cmTC_831fc.dir/PQXX_HAVE_STRERROR_S.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_831fc.dir/PQXX_HAVE_STRERROR_S.cxx.o -MF CMakeFiles/cmTC_831fc.dir/PQXX_HAVE_STRERROR_S.cxx.o.d -o CMakeFiles/cmTC_831fc.dir/PQXX_HAVE_STRERROR_S.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_STRERROR_S.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_STRERROR_S.cxx:10:10: error: use of undeclared identifier 'strerror_s'; did you mean 'strerror_r'?
+          return strerror_s(buf, 200, 1);
+                 ^~~~~~~~~~
+                 strerror_r
+        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/string.h:116:6: note: 'strerror_r' declared here
+        int      strerror_r(int __errnum, char *__strerrbuf, size_t __buflen);
+                 ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_STRERROR_S.cxx:10:21: error: cannot initialize a parameter of type 'int' with an lvalue of type 'char[200]'
+          return strerror_s(buf, 200, 1);
+                            ^~~
+        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/string.h:116:21: note: passing argument to parameter '__errnum' here
+        int      strerror_r(int __errnum, char *__strerrbuf, size_t __buflen);
+                                ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_831fc.dir/PQXX_HAVE_STRERROR_S.cxx.o] Error 1
+        make: *** [cmTC_831fc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:70 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3ea91/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3ea91.dir/build.make CMakeFiles/cmTC_3ea91.dir/build
+        Building CXX object CMakeFiles/cmTC_3ea91.dir/PQXX_HAVE_THREAD_LOCAL.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_3ea91.dir/PQXX_HAVE_THREAD_LOCAL.cxx.o -MF CMakeFiles/cmTC_3ea91.dir/PQXX_HAVE_THREAD_LOCAL.cxx.o.d -o CMakeFiles/cmTC_3ea91.dir/PQXX_HAVE_THREAD_LOCAL.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_THREAD_LOCAL.cxx"
+        Linking CXX executable cmTC_3ea91
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ea91.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3ea91.dir/PQXX_HAVE_THREAD_LOCAL.cxx.o -o cmTC_3ea91 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:74 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_UNREACHABLE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9e324/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9e324.dir/build.make CMakeFiles/cmTC_9e324.dir/build
+        Building CXX object CMakeFiles/cmTC_9e324.dir/PQXX_HAVE_UNREACHABLE.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_9e324.dir/PQXX_HAVE_UNREACHABLE.cxx.o -MF CMakeFiles/cmTC_9e324.dir/PQXX_HAVE_UNREACHABLE.cxx.o.d -o CMakeFiles/cmTC_9e324.dir/PQXX_HAVE_UNREACHABLE.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_UNREACHABLE.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_UNREACHABLE.cxx:5:4: error: "No PQXX_HAVE_UNREACHABLE: __cpp_lib_unreachable is not set."
+        #  error "No PQXX_HAVE_UNREACHABLE: __cpp_lib_unreachable is not set."
+           ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_UNREACHABLE.cxx:8:4: error: "No PQXX_HAVE_UNREACHABLE: __cpp_lib_unreachable is false."
+        #  error "No PQXX_HAVE_UNREACHABLE: __cpp_lib_unreachable is false."
+           ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_9e324.dir/PQXX_HAVE_UNREACHABLE.cxx.o] Error 1
+        make: *** [cmTC_9e324/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:78 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "PQXX_HAVE_YEAR_MONTH_DAY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ca87/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7ca87.dir/build.make CMakeFiles/cmTC_7ca87.dir/build
+        Building CXX object CMakeFiles/cmTC_7ca87.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_7ca87.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.o -MF CMakeFiles/cmTC_7ca87.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.o.d -o CMakeFiles/cmTC_7ca87.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx"
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx:6:31: error: expected ')'
+          return int(std::chrono::year{1});
+                                      ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx:6:13: note: to match this '('
+          return int(std::chrono::year{1});
+                    ^
+        /Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx:6:27: error: no member named 'year' in namespace 'std::chrono'
+          return int(std::chrono::year{1});
+                     ~~~~~~~~~~~~~^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_7ca87.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.o] Error 1
+        make: *** [cmTC_7ca87/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/pqxx_cxx_feature_checks.cmake:82 (try_compile)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake/config.cmake:56 (include)"
+      - "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/CMakeLists.txt:27 (include)"
+    directories:
+      source: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "no_need_fslib"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/pqxx-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_17f2e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_17f2e.dir/build.make CMakeFiles/cmTC_17f2e.dir/build
+        Building CXX object CMakeFiles/cmTC_17f2e.dir/no_need_fslib.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_17f2e.dir/no_need_fslib.cxx.o -MF CMakeFiles/cmTC_17f2e.dir/no_need_fslib.cxx.o.d -o CMakeFiles/cmTC_17f2e.dir/no_need_fslib.cxx.o -c "/Users/margaret/Desktop/student homework/libpqxx-7.9.0/config-tests/no_need_fslib.cxx"
+        Linking CXX executable cmTC_17f2e
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17f2e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_17f2e.dir/no_need_fslib.cxx.o -o cmTC_17f2e 
+        
+      exitCode: 0
+...

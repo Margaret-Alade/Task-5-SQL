@@ -6,9 +6,22 @@
 //
 
 #include <iostream>
+#include <pqxx/pqxx>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main() {
+    try {
+    pqxx::connection con (
+        "host=Margaret.local "
+        "port=5432 "
+        "dbname=task5 "
+        "user=posgres "
+        "password=8563"
+    );
+    std::cout << "Connection is established" << "\n";
+    } catch (std::exception& e) {
+        std::cout << "Exception: " << e.what() << "\n";
+    }
+    
 }
+
+
