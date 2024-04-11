@@ -92,8 +92,8 @@ Task5_EXTERNAL_OBJECTS =
 
 Task5: CMakeFiles/Task5.dir/main.cpp.o
 Task5: CMakeFiles/Task5.dir/build.make
-Task5: pqxx-build/src/libpqxx-7.9.a
 Task5: /opt/homebrew/lib/postgresql@14/libpq.dylib
+Task5: /opt/homebrew/Cellar/libpqxx/7.9.0/lib/libpqxx.dylib
 Task5: CMakeFiles/Task5.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/margaret/Desktop/student homework/Task-5-SQL/Task-5-SQL/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task5.dir/link.txt --verbose=$(VERBOSE)
